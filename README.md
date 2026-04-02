@@ -41,7 +41,7 @@ Library Attendants
 Borrow & Return
 
  Borrow Book
-POST /api/book/:id/borrow
+PATCH /api/book/:id/borrow
 
 Request body:
 json
@@ -52,4 +52,4 @@ json
 }
 
 Return Book
-POST /api/book/:id/return
+PATCH /api/book/:id/return
